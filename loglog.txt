@@ -1,0 +1,10 @@
+ 25  q
+   26  run testcases/multi_op_err2.s
+   27  p new_token
+   28  p *new_token
+   29  p val_b
+   30  p val_b->val
+   31  p *val_b
+   32  p *val_a
+   33  q
+   34  show commands

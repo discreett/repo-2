@@ -1,0 +1,500 @@
+   51  make clean
+   52  make debug
+   53  bin/ci
+   54  bin/ci
+   55  make clean
+   56  make debug
+   57  make clean
+   58  make debug
+   59  make clean
+   60  make debug
+   61  make clean
+   62  make debug
+   63  make clean
+   64  make debug
+   65  make debug
+   66  make test_week3
+   67  make clean
+   68  make debug
+   69  make test_week3
+   70  bin/ci
+   71  gdb bin/ci
+   72  gdb bin/ci
+   73  b interpreter.c:interpret
+   74  gdb bin/ci
+   75  bin/ci
+   76  bin/ci
+   77  bin/ci
+   78  make clean
+   79  make debug
+   80  make clean
+   81  make debug
+   82  make test_week3
+   83  gdb
+   84  gdb bin/ci
+   85  make clean
+   86  make debug
+   87  make clean
+   88  make debug
+   89  make clean
+   90  make debug
+   91  make test_week3
+   92  make clean
+   93  make debug
+   94  make test_week3
+   95  make clean
+   96  make debug
+   97  make test_week3
+   98  gdb bin/ci
+   99  bin/ci -i testcases/week3/modify_string.s
+  100  bin/ci -i testcases/week3/replace.s
+  101  make test_week3
+  102  make test_week3
+  103  git add .
+  104  git commit -m "week 3"
+  105  git push
+  106  make test_week4
+  107  make clean
+  108  make debug
+  109  make debug
+  110  make clean
+  111  make debug
+  112  make test_week4
+  113  make clean
+  114  make debug
+  115  make debug
+  116  bin/ci
+  117  bin/ci testcases/week4/ret2.s
+  118  bin/ci testcases/week4/ret2.s
+  119  bin/ci -i testcases/week4/ret2.s
+  120  bin/ci - i testcases/week4/branch_taken.s
+  121  bin/ci -i testcases/week4/branch_taken.s
+  122  make clean
+  123  make debug
+  124  bin/ci -i     char* label_name = is_label(parser);
+  125  bin/ci -i testcases/week4/b.le.s
+  126  make clean
+  127  make debug
+  128  make clean
+  129  make debug
+  130  bin/ci -i testcases/week4/b.le.s
+  131  make test_week4
+  132  bin/ci -i testcases/week4/b.le.s
+  133  make clean
+  134  make debug
+  135  make clean
+  136  make debug
+  137  bin/ci -i testcases/week4/b.le.s
+  138  bin/ci -i testcases/week4/ret.s
+  139  bin/ci -i testcases/week4/call.s
+  140  bin/ci -i testcases/week4/branch_taken.s
+  141  make clean
+  142  make debug
+  143  bin/ci -i testcases/week4/branch_taken.s
+  144  make clean
+  145  make debug
+  146  bin/ci -i testcases/week4/branch_taken.s
+  147  bin/ci -i testcases/week4/branch_taken.s
+  148  make clean
+  149  make debug
+  150  bin/ci -i testcases/week4/branch_taken.s
+  151  make clean
+  152  make debug
+  153  make clean
+  154  make debug
+  155  make test_week4
+  156  make clean
+  157  make debug
+  158  make test_week4
+  159  make clean
+  160  make debug
+  161  make test_week4
+  162  gdb bin/ci
+  163  gdb bin/ci
+  164  bin/ci testcases/week4/b.eq.s
+  165  bin/ci -i testcases/week4/b.eq.s
+  166  gdb
+  167  gdb bin/ci
+  168  bin/ci testcases/week4/b.eq.s
+  169  bin/ci testcases/week4/b.eq.s
+  170  bin/ci -i testcases/week4/b.eq.s
+  171  make clean
+  172  make debug
+  173  bin/ci -i testcases/week4/b.eq.s
+  174  make clean
+  175  make debug
+  176  bin/ci -i testcases/week4/b.eq.s
+  177  make clean
+  178  make debug
+  179  bin/ci -i testcases/week4/b.eq.s
+  180  make clean
+  181  make debug
+  182  bin/ci -i testcases/week4/b.eq.s
+  183  make clean
+  184  make debug
+  185  bin/ci -i testcases/week4/b.eq.s
+  186  make test_week4
+  187  bin/ci -i testcases/week4/b.cond.s
+  188  bin/ci -i testcases/week4/b.eq_err.s
+  189  make test_week4
+  190  gdb bin/ci
+  191  gdb bin/ci
+  192  make clean
+  193  make debug
+  194  bin/ci testcases/week4/b.eq_err.s
+  195  bin/ci -i testcases/week4/b.eq_err.s
+  196  gdb bin/ci
+  197  make clean
+  198  make debug
+  199  bin/ci testcases/week4/b.eq_err.s
+  200  bin/ci -i testcases/week4/b.eq_err.s
+  201  make clean
+  202  make debug
+  203  bin/ci -i testcases/week4/b.eq_err.s
+  204  make clean
+  205  make debug
+  206  bin/ci -i testcases/week4/b.eq_err.s
+  207  make clean
+  208  make debug
+  209  bin/ci -i testcases/week4/b.eq_err.s
+  210  make clean
+  211  make debug
+  212  bin/ci -i testcases/week4/b.eq_err.s
+  213  bin/ci -i testcases/week4/b.eq_err.s
+  214  make clean
+  215  make debug
+  216  bin/ci -i testcases/week4/b.eq_err.s
+  217  gdb bin/ci
+  218  bin/ci testcases/week4/b_err.s
+  219  bin/ci -i testcases/week4/b_err.s
+  220  make clean
+  221  make debug
+  222  bin/ci -i testcases/week4/b_err.s
+  223  make test_week4
+  224  make clean
+  225  make debug
+  226  make test_week4
+  227  bin/ci testcases/week4/branch_taken.s
+  228  bin/ci -i testcases/week4/branch_taken.s
+  229  make clean
+  230  make debug
+  231  make test_week4
+  232  bin/ci
+  233  bin/ci -i testcases/week4/call.s
+  234  make clean
+  235  make debug
+  236  bin/ci -i testcases/week4/call.s
+  237  make test_week4
+  238  bin/ci -i /u/viet7/CS429/ci-lab-discreett/testcases/week4/b.cond.s
+  239  bin/ci -i testcases/week4/ret.s
+  240  make clean
+  241  make debug
+  242  bin/ci -i testcases/week4/ret.s
+  243  make clean
+  244  make debug
+  245  bin/ci -i testcases/week4/ret.s
+  246  make clean
+  247  make debug
+  248  make test_week4
+  249  bin/ci
+  250  bin/ci /u/viet7/CS429/ci-lab-discreett/testcases/week4/call.s
+  251  bin/ci -i /u/viet7/CS429/ci-lab-discreett/testcases/week4/call.s
+  252  bin/ci -i testcases/week4/collatz_recursive.s
+  253  bin/ci -i testcases/week4/collatz.s
+  254  make clean
+  255  make debug
+  256  bin/ci -i testcases/week4/collatz.s
+  257  make test_week4
+  258  make clean
+  259  make debug
+  260  make test_week4
+  261  make clean
+  262  make debug
+  263  bin/ci -i testcases/week4/collatz_recursive.s
+  264  make clean
+  265  make debug
+  266  bin/ci -i testcases/week4/collatz_recursive.s
+  267  make test_week4
+  268  bin/ci testcases/week4/sqrt.s
+  269  bin/ci -i testcases/week4/sqrt.s
+  270  bin/ci -i testcases/week4/call.s
+  271  make clean
+  272  make debug
+  273  make clean
+  274  make debug
+  275  bin/ci testcases/week4/call.s
+  276  bin/ci -i  testcases/week4/call.s
+  277  make test_week4
+  278  make clean
+  279  make debug
+  280  bin/ci -i /u/viet7/CS429/ci-lab-discreett/testcases/week4/ret_err.s
+  281  make clean
+  282  make debug
+  283  bin/ci -i /u/viet7/CS429/ci-lab-discreett/testcases/week4/ret_err.s
+  284  make clean
+  285  make debug
+  286  make test_week4
+  287  make clean
+  288  make debug
+  289  make test_week4
+  290  git add .
+  291  git commit -m "week4
+  292  q
+  293  git add .
+  294  git commit -m "week4"
+  295  git push
+  296  git clone https://github.com/CS429-FA2025/mm-lab-discreett
+  297  git clone https://github.com/CS429-FA2025/mm-lab-discreett
+  298  man sbrk
+  299  man sbrk
+  300  make heap_runner
+  301  make heap_runner
+  302  make clean
+  303  make debug
+  304  make
+  305  ls
+  306  cd mm-lab-discreett
+  307  make clean
+  308  make debug
+  309  make heap_runner
+  310  make clean
+  311  make debug
+  312  make clena
+  313  cd mm-lab-discreett
+  314  ls
+  315  make clean
+  316  make debug
+  317  make heap_runner
+  318  ./heap_runner
+  319  ./heap_runner
+  320  make clean
+  321  make debug
+  322  ./heap_runner
+  323  ./heap_runner
+  324  make clean
+  325  make debug
+  326  make debug
+  327  ./heap_runner
+  328  cd mm-lab-discreett
+  329  make clean
+  330  make debug
+  331  cd mm-lab-discreett
+  332  make clean
+  333  make debug
+  334  python3 driver.py -w1
+  335  python3 driver.py -w1
+  336  make debug
+  337  make clean
+  338  make clean
+  339  make debug
+  340  python3 driver.py -w1
+  341  make clean
+  342  make debug
+  343  python3 driver.py -w1
+  344  gdb ./runner.c
+  345  gdb bin/ci
+  346  gdb .runner.c
+  347  gdb /u/viet7/CS429/mm-lab-discreett/runner.c
+  348  python3 driver.py -w1
+  349  make clean
+  350  make debug
+  351  python3 driver.py -w1
+  352  python3 driver.py -w1
+  353  cd mm-lab-discreet
+  354  cd mm-lab-discreett
+  355  python3 driver.py -w1
+  356  ls -la
+  357  ./driver.py -w1
+  358  ./heap_runner -f traces/week1/short1.rep
+  359  make && ./heap_runner -f traces/week1/short1.rep
+  360  ./driver.py -w1
+  361  python3 driver.py -w1
+  362  make clean
+  363  make debug
+  364  python3 driver.py -w1
+  365  make && ./heap_runner -f traces/week1/short1.rep
+  366  cat > debug_test.c << 'EOF'
+  367  #include "umalloc.h"
+  368  #include <stdio.h>
+  369  int main() {
+  370      uinit();
+  371      void *p1 = umalloc(32);
+  372      void *p2 = umalloc(64);
+  373      
+  374      printf("p1: %p\n", p1);
+  375      printf("p2: %p\n", p2);
+  376      printf("Difference: %ld\n", (char*)p2 - (char*)p1);
+  377      printf("Expected min difference: %ld\n", ALIGN(32) + ALIGN(sizeof(mem_block_header_t)));
+  378      
+  379      return 0;
+  380  }
+  381  EOF
+  382  gcc -o debug_test debug_test.c umalloc.o csbrk.o err_handler.o support.o check_heap.o && ./debug_test
+  383  ./driver.py -w1 -v
+  384  make && ./heap_runner -f traces/week1/short1.rep
+  385  make clean
+  386  make debug
+  387  ./driver.py -w1 -v
+  388  python3 driver.py -w1
+  389  python3 driver.py -w1
+  390  make clean
+  391  make debug
+  392  python3 driver.py -w1
+  393  cd mm-lab-discreett
+  394  make clean
+  395  make debug
+  396  python3 driver.py -w1
+  397  gdb ./runner.c
+  398  gdb ./runner
+  399  gdb ./runner
+  400  ls -la traces/week1/
+  401  pwd && ls -la traces/week1/
+  402  gdb /runner
+  403  gdb ./runner
+  404  make clean
+  405  make debug
+  406  make clean
+  407  make debug
+  408  make clean
+  409  make debug
+  410  python3 driver.py -w1
+  411  A
+  412  gdb /runner
+  413  gdb ./runner
+  414  gdb ./runner
+  415  gdb ./runner
+  416  make clean
+  417  make debug
+  418  python3 driver.py -w1
+  419  python3 driver.py -w2
+  420  make clean
+  421  make debug
+  422  python3 driver.py -w1
+  423  python3 driver.py -w2
+  424  ./bump_test
+  425  git add .
+  426  git commit -m "Week 1"
+  427  git push
+  428  make clean
+  429  make debug
+  430  make clean
+  431  make debug
+  432  git commit -m "Week 1"
+  433  python3 driver.py -w1
+  434  make clean
+  435  make debug
+  436  python3 driver.py -w1
+  437  git add .
+  438  git commit -m "W1 p2"
+  439  git push
+  440  python3 driver.py -w2
+  441  ./runner -t traces/week2/basic/amptjp.rep
+  442  ./runner traces/week2/basic/amptjp.rep
+  443  gdb ./runner
+  444  ./runner -v -r traces/week2/basic/binary.rep
+  445  make cleam
+  446  make clean
+  447  make debug
+  448  python3 driver.py -w2
+  449  make clean
+  450  make debug
+  451  python3 driver.py -w2
+  452  python3 runner.py -w2
+  453  python3 driver.py -w2
+  454  make clean
+  455  make debug
+  456  python3 driver.py -w2
+  457  make clean
+  458  make debug
+  459  python3 driver.py -w2
+  460  make clean && make
+  461  make
+  462  python3 driver.py -w2
+  463  python3 driver.py -w2
+  464  python3 driver.py -w2
+  465  make clean
+  466  make debug
+  467  python3 driver.py -w2
+  468  make clean
+  469  make debug
+  470  python3 driver.py -w2
+  471  make clean
+  472  make debug
+  473  python3 driver.py -w2
+  474  make clean
+  475  make clean
+  476  make debug
+  477  python3 driver.py -w2
+  478  make clean
+  479  make debug
+  480  python3 driver.py -w2
+  481  make clean
+  482  make debug
+  483  python3 driver.py -w2
+  484  git add .
+  485  git commit -m "w3"
+  486  git push
+  487  make clean
+  488  make debug
+  489  python3 driver.py -w2
+  490  cd
+  491  ls
+  492  cd demo
+  493  ls
+  494  git clone git@github.com:discreett/repo-2.git
+  495  ls
+  496  cd repo-2
+  497  make clean
+  498  make debug
+  499  make check
+  500  chmod -x mini_ci_reference
+  501  make check
+  502  chmod -x mini_ci mini_ci_reference
+  503  make check
+  504  chmod +x mini_ci_reference
+  505  make clean
+  506  make debug
+  507  make check
+  508  gdb mini_ci
+  509  make clean
+  510  make debug
+  511  make check
+  512  make clean
+  513  make debug
+  514  make check
+  515  gdb mini_ci
+  516  make clean
+  517  make debug
+  518  make check
+  519  gdb mini_ci
+  520  make clean
+  521  make debug
+  522  make check
+  523  gdb mini_ci
+  524  make clean
+  525  make debug
+  526  gdb mini_ci
+  527  make clean
+  528  make debug
+  529  gdb mini_ci
+  530  make clean
+  531  make debug
+  532  make check
+  533  make clean
+  534  make check
+  535  make clean
+  536  make check
+  537  gdb mini_ci
+  538  make clean
+  539  make debug
+  540  gdb mini_ci
+  541  make clean
+  542  make debug
+  543  make check
+  544  make clean
+  545  make debug
+  546  make check
+  547  make clean
+  548  make debug
+  549  make check
+  550  history > log.txt
